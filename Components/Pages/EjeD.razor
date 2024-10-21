@@ -1,0 +1,39 @@
+@page "/ejeF"
+
+<div>
+    <h1>Ejercicios 20</h1>
+
+    <h1>El Resultado es: @Results</h1>
+</div>
+
+@code {
+
+    [Parameter]
+    public int numero { get; set; }
+    public int Results { get; set; }
+    public void SonTodosLosDigitosIguales()
+    {
+        // Convertimos el número a su valor absoluto y a una cadena
+        string numeroStr = Math.Abs(numero).ToString();
+
+        // Obtenemos el primer dígito
+        char primerDigito = numeroStr[0];
+
+        // Verificamos si todos los dígitos son iguales al primer dígito
+        foreach (char digito in numeroStr)
+        {
+            if (digito != primerDigito)
+            {
+                Results = 0; // Retorna 0 si algún dígito es diferente
+            }
+        }
+
+        Results = 1; // Retorna 1 si todos los dígitos son iguales
+    }
+
+    protected override void OnParametersSet()
+    {
+        SonTodosLosDigitosIguales();
+    }
+
+}

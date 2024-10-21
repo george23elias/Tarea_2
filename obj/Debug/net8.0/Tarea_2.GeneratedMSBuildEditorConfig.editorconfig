@@ -30,20 +30,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9FamUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/macbook/Documents/GitHub/Tarea_2/Components/Pages/eje14.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9lamUxNC5yYXpvcg==
+[/Users/macbook/Documents/GitHub/Tarea_2/Components/Pages/EjeA.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9FamVBLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/macbook/Documents/GitHub/Tarea_2/Components/Pages/eje16.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9lamUxNi5yYXpvcg==
+[/Users/macbook/Documents/GitHub/Tarea_2/Components/Pages/EjeB.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9FamVCLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/macbook/Documents/GitHub/Tarea_2/Components/Pages/eje18.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9lamUxOC5yYXpvcg==
+[/Users/macbook/Documents/GitHub/Tarea_2/Components/Pages/EjeC.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9FamVDLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/macbook/Documents/GitHub/Tarea_2/Components/Pages/eje20.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9lamUyMC5yYXpvcg==
+[/Users/macbook/Documents/GitHub/Tarea_2/Components/Pages/EjeD.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9FamVELnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/macbook/Documents/GitHub/Tarea_2/Components/Pages/Error.razor]
@@ -52,6 +52,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/macbook/Documents/GitHub/Tarea_2/Components/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Ib21lLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/macbook/Documents/GitHub/Tarea_2/Components/Pages/Valores.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9WYWxvcmVzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/macbook/Documents/GitHub/Tarea_2/Components/Pages/Weather.razor]

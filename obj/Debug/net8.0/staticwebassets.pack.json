@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/macbook/Documents/GitHub/Tarea_2/obj/Debug/net8.0/scopedcss/projectbundle/Tarea_2.bundle.scp.css",
+      "PackagePath": "staticwebassets/Tarea_2.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/macbook/Documents/GitHub/Tarea_2/wwwroot/app.css",
+      "PackagePath": "staticwebassets/app.css"
+    },
+    {
+      "Id": "/Users/macbook/Documents/GitHub/Tarea_2/wwwroot/bootstrap/bootstrap.min.css",
+      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/macbook/Documents/GitHub/Tarea_2/wwwroot/bootstrap/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/macbook/Documents/GitHub/Tarea_2/wwwroot/favicon.png",
+      "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.Tarea_2.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.Tarea_2.props",
+      "PackagePath": "build\\Tarea_2.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.Tarea_2.props",
+      "PackagePath": "buildMultiTargeting\\Tarea_2.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.Tarea_2.props",
+      "PackagePath": "buildTransitive\\Tarea_2.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

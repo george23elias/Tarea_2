@@ -1,7 +1,18 @@
-@page "/eje12"
+@page "/ejeD"
+
+<div>
+    <h1>Ejercicios 18</h1>
+
+    <h1>El Resultado es: @Results</h1>
+</div>
 
 @code {
-    public int EsFactorialDeUnDigito(int numero, int valor)
+    [Parameter]
+    public int numero { get; set; }
+    [Parameter]
+    public int valor { get; set; }
+    public int Results { get; set; }
+    public void EsFactorialDeUnDigito()
     {
         // Función auxiliar para calcular el factorial
         int CalcularFactorial(int n)
@@ -30,11 +41,16 @@
             // Comparamos si el valor dado es igual al factorial del dígito
             if (factorial == valor)
             {
-                return 1; // Retorna 1 si coincide
+                Results = 1; // Retorna 1 si coincide
             }
         }
 
-        return 0; // Retorna 0 si no coincide con ningún factorial
+        Results = 0; // Retorna 0 si no coincide con ningún factorial
+    }
+
+    protected override void OnParametersSet()
+    {
+        EsFactorialDeUnDigito();
     }
 
 }

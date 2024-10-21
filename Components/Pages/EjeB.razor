@@ -1,0 +1,24 @@
+@page "/ejeC"
+<div>
+    <h1>Ejercicios 16</h1>
+
+    <h1>El Resultado es: @Results</h1>
+</div>
+
+@code {
+    [Parameter]
+    public int codigo { get; set; }
+    public int Results { get; set; }
+
+    public void EsLetraMinusculaASCII()
+    {
+        Results = (codigo >= 97 && codigo <= 122) ? 1 : 0;
+    }
+
+    protected override void OnParametersSet()
+    {
+        EsLetraMinusculaASCII();
+    }
+
+
+}

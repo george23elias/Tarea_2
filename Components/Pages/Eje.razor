@@ -1,7 +1,8 @@
-
+@page "/ejeA"
 
 <div>
-    <h1>El Resultado es: @Results</h1>
+    <h1>Ejercicios 12</h1>
+    <h1>El es: @Results</h1>
 </div>
 
 
@@ -12,13 +13,16 @@
     public int digito { get; set; }
     public int Results { get; set; }
 
-    public int VerificarDigitoEnEntero()
+    protected override void OnParametersSet()
     {
-        // Convertimos el número y el dígito a valores absolutos para evitar problemas con los negativos
+        VerificarDigitoEnEntero();
+    }
+
+    public void VerificarDigitoEnEntero()
+    {
         string numeroStr = Math.Abs(numero).ToString();
         string digitoStr = Math.Abs(digito).ToString();
 
-        // Verificamos si el dígito está contenido en el número
-        return Results = numeroStr.Contains(digitoStr) ? 1 : 0;
+        Results = numeroStr.Contains(digitoStr) ? 1 : 0;
     }
 }

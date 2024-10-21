@@ -1,0 +1,27 @@
+@page "/ejeB"
+
+<div>
+    <h1>Ejercicios 14</h1>
+
+    <h1>Resultado: @Results</h1>
+</div>
+
+@code {
+    [Parameter]
+    public int numero1 { get; set; }
+
+    [Parameter]
+    public int numero2 { get; set; }
+
+    public int Results { get; set; }
+
+    protected override void OnParametersSet()
+    {
+        ObtenerMayor();
+    }
+
+    public void ObtenerMayor()
+    {
+        Results = Math.Max(numero1, numero2);
+    }
+}
