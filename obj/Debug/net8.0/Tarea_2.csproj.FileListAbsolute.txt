@@ -28,3 +28,4 @@
 /Users/macbook/Documents/GitHub/Tarea_2/obj/Debug/net8.0/Tarea_2.pdb
 /Users/macbook/Documents/GitHub/Tarea_2/obj/Debug/net8.0/Tarea_2.genruntimeconfig.cache
 /Users/macbook/Documents/GitHub/Tarea_2/obj/Debug/net8.0/ref/Tarea_2.dll
+/Users/macbook/Documents/GitHub/Tarea_2/obj/Debug/net8.0/scopedcss/Components/Pages/Home.razor.rz.scp.css

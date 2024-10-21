@@ -1,0 +1,16 @@
+.Home_Navegacion {
+  border: 1px solid black;
+  border-radius: 1rem;
+}
+
+.Home_Navegacion:hover {
+  background-color: black;
+}
+
+.Home_Navegacion h3 {
+  font-size: 1rem;
+}
+
+.Home_Navegacion:hover h3 {
+  color: white;
+}

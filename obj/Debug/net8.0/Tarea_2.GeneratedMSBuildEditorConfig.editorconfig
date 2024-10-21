@@ -50,10 +50,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9FcnJvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/macbook/Documents/GitHub/Tarea_2/Components/Pages/Home.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Ib21lLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
 [/Users/macbook/Documents/GitHub/Tarea_2/Components/Pages/Valores.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9WYWxvcmVzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
@@ -77,3 +73,7 @@ build_metadata.AdditionalFiles.CssScope = b-dw8xdcjkxj
 [/Users/macbook/Documents/GitHub/Tarea_2/Components/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvTmF2TWVudS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-yrig2rkfqs
+
+[/Users/macbook/Documents/GitHub/Tarea_2/Components/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Ib21lLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-353qf4ft2d

@@ -201,3 +201,20 @@ main[b-dw8xdcjkxj] {
         overflow-y: auto;
     }
 }
+/* _content/Tarea_2/Components/Pages/Home.razor.rz.scp.css */
+.Home_Navegacion[b-353qf4ft2d] {
+  border: 1px solid black;
+  border-radius: 1rem;
+}
+
+.Home_Navegacion:hover[b-353qf4ft2d] {
+  background-color: black;
+}
+
+.Home_Navegacion h3[b-353qf4ft2d] {
+  font-size: 1rem;
+}
+
+.Home_Navegacion:hover h3[b-353qf4ft2d] {
+  color: white;
+}
