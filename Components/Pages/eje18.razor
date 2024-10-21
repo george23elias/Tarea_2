@@ -1,0 +1,40 @@
+@page "/eje12"
+
+@code {
+    public int EsFactorialDeUnDigito(int numero, int valor)
+    {
+        // Función auxiliar para calcular el factorial
+        int CalcularFactorial(int n)
+        {
+            if (n == 0 || n == 1)
+                return 1;
+            int resultado = 1;
+            for (int i = 2; i <= n; i++)
+            {
+                resultado *= i;
+            }
+            return resultado;
+        }
+
+        // Convertimos el número a positivo por si es negativo
+        string numeroStr = Math.Abs(numero).ToString();
+
+        // Recorremos cada dígito del número
+        foreach (char digitoChar in numeroStr)
+        {
+            int digito = int.Parse(digitoChar.ToString());
+
+            // Calculamos el factorial del dígito
+            int factorial = CalcularFactorial(digito);
+
+            // Comparamos si el valor dado es igual al factorial del dígito
+            if (factorial == valor)
+            {
+                return 1; // Retorna 1 si coincide
+            }
+        }
+
+        return 0; // Retorna 0 si no coincide con ningún factorial
+    }
+
+}

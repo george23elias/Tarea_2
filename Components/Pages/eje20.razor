@@ -1,0 +1,24 @@
+@page "/eje12"
+
+@code {
+    public int SonTodosLosDigitosIguales(int numero)
+    {
+        // Convertimos el número a su valor absoluto y a una cadena
+        string numeroStr = Math.Abs(numero).ToString();
+
+        // Obtenemos el primer dígito
+        char primerDigito = numeroStr[0];
+
+        // Verificamos si todos los dígitos son iguales al primer dígito
+        foreach (char digito in numeroStr)
+        {
+            if (digito != primerDigito)
+            {
+                return 0; // Retorna 0 si algún dígito es diferente
+            }
+        }
+
+        return 1; // Retorna 1 si todos los dígitos son iguales
+    }
+
+}

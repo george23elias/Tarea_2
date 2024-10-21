@@ -1,0 +1,6 @@
+/Users/macbook/Documents/GitHub/Tarea_2/obj/Debug/net8.0/Tarea_2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/macbook/Documents/GitHub/Tarea_2/obj/Debug/net8.0/Tarea_2.AssemblyInfoInputs.cache
+/Users/macbook/Documents/GitHub/Tarea_2/obj/Debug/net8.0/Tarea_2.AssemblyInfo.cs
+/Users/macbook/Documents/GitHub/Tarea_2/obj/Debug/net8.0/Tarea_2.csproj.CoreCompileInputs.cache
+/Users/macbook/Documents/GitHub/Tarea_2/obj/Debug/net8.0/Tarea_2.MvcApplicationPartsAssemblyInfo.cache
+/Users/macbook/Documents/GitHub/Tarea_2/obj/Debug/net8.0/Tarea_2.sourcelink.json
